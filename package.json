@@ -1,6 +1,6 @@
 {
   "author": "Paketo Buildpacks",
-  proxy: 'http://haseubuntu1:1339674566@10.0.58.88:8080',
+  "proxy": "http://haseubuntu1:1339674566@10.0.58.88:8080",
   "dependencies": {
     "express": "^4.17.0"
   },
