@@ -10,6 +10,7 @@ app.get('/', (request, response) => {
     <title>Powered By Paketo Buildpacks</title>
   </head>
   <body>
+  
     <img src="./paketo-logo-full-color.png"></img>
   </body>
 </html>`);
