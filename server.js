@@ -3,15 +3,14 @@ const port = process.env.PORT || 8080;
 
 const app = express();
 
-app.get('/', (request, response) => {
+app.get('/workspace', (request, response) => {
   response.send(`<!DOCTYPE html>
 <html>
   <head>
     <title>Powered By Paketo Buildpacks</title>
   </head>
   <body>
-  
-    <img src="./paketo-logo-full-color.png"></img>
+    <img src="paketo-logo-full-color.png"></img>
   </body>
 </html>`);
 });
