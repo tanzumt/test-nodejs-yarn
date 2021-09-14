@@ -5,7 +5,7 @@ const fs = require('fs');
 const app = express();
 
 app.get('/', (req, res) => {
-    fs.readFile('./paketo-logo-full-color.png', (err, data) => {
+    fs.readFile('./adelaide.jpg', (err, data) => {
       res.type('png');
       res.send(data);
     });
